@@ -38,6 +38,9 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
+strong{
+  font-weight:bold;
+}
 
 .section-header {
   text-align: center;
