@@ -38,8 +38,9 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
-strong{
+.textPrincipal{
   font-weight:bold;
+  color: #2db6fa;
 }
 
 .section-header {
@@ -386,7 +387,7 @@ strong{
 }
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   color: #012970;
 }
@@ -568,7 +569,7 @@ strong{
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features .feature-box {
+.features .feature-box .feature-box-2{
   padding: 24px 20px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
@@ -579,6 +580,16 @@ strong{
   color: #012970;
   font-weight: 700;
   margin: 0;
+}
+.features .feature-box-2 h3 {
+  font-size: 15px;
+  color: #012970;
+  font-weight: 700;
+  margin: 0;
+}
+.features .feature-box-2:hover i {
+  background: #4154f1;
+  color: #fff;
 }
 .features .feature-box i {
   line-height: 0;
