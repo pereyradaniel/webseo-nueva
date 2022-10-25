@@ -2048,3 +2048,35 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+/*Estilos Daniel*/
+
+.bi-check::before {
+  content: "\f26e";
+  color: rgb(8, 218, 78);
+};
+
+
+.listaH4 {
+  padding-left: 10px;
+  margin-left: 10px;
+  color: blue!important;
+  font-size: 19px!important;
+}
+
+.services .service-box:hover li, .services .service-box:hover li, .services .service-box:hover {
+  color: #fff;
+}
+
+
+
+@media (min-width: 1200px){
+  .listaH4, .h4, h4 {
+    font-size: 1rem;
+    padding-left:10px;
+}}
+
+.features .feature-box-2:hover i {
+  background: #ffffff;
+  color: #fff;
+}
